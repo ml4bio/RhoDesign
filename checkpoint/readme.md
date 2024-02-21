@@ -1,0 +1,1 @@
+Download the model checkpoint from Google Drive and put it in this folder.
