@@ -78,6 +78,14 @@ To reproduce the results of RhoDesign, follow these steps:
 
 4. The script will load the trained model checkpoints, process the data, and generate the desired results.
 
+For cross-fold validation, please follow the following steps:
+
+1. Find the splited pdb id for cross-fold datasets in the path: data/cross-fold-validation. We have five folds separately for seq-sim < 0.6 and structure-sim < 0.5.
+
+2. Download the pdb and each model checkpoints of the five folds from Google drive. [link: https://drive.google.com/drive/folders/1H3Itu6TTfaVErPH50Ly7rmQDxElH3JEz?usp=sharing]
+
+3. Follow the script in the analysis-notebooks for reproducing the results. Please change the path to the pdb and model checkpoint on your server.
+
 Note: Make sure to have the necessary dependencies installed before running the script.
 
 ## Results
