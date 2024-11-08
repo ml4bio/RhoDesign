@@ -1,5 +1,5 @@
 # RhoDesign
-
+![model architecture](./model_arc.png)
 RhoDesign is a structure-to-sequence model for RNA design. It leverages Geometric Vector Perceptrons (GVP) encoding and a Transformer encoder-decoder to capture structural details and generate meaningful RNA sequences. This repository contains the source code and data necessary to reproduce the results of RhoDesign.
 
 ## Table of Contents
@@ -95,3 +95,17 @@ The results of RhoDesign can be found in the respective output files generated b
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
+
+## Publication
+If you find it useful, please cite our paper.
+```
+@article{wong2024deep,
+  title={Deep generative design of RNA aptamers using structural predictions},
+  author={Wong, Felix and He, Dongchen and Krishnan, Aarti and Hong, Liang and Wang, Alexander Z and Wang, Jiuming and Hu, Zhihang and Omori, Satotaka and Li, Alicia and Rao, Jiahua and others},
+  journal={Nature Computational Science},
+  pages={1--11},
+  year={2024},
+  publisher={Nature Publishing Group}
+}
+```
+
